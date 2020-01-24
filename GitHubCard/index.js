@@ -73,8 +73,21 @@ cardInfo.classList.add("card-info")
 name.classList.add("name")
 userName.classList.add("username")
 
+
+
+card.append("userUrl");
+card.append("card-info");
+cardInfo.append("name");
+cardInfo.append("userName");
+cardInfo.append("userLocation");
+cardInfo.append("profile");
+profile.append("userAddress");
+cardInfo.append("followers");
+cardInfo.append("following");
+cardInfo.append("userBio");
+
 name.textContent = theData.name;
-console.log
+userName.textContent = theData.userName;
 }
 
 /* List of LS Instructors Github username's: 
